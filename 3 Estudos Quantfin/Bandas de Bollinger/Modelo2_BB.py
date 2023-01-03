@@ -67,6 +67,10 @@ df.loc[:, "Trade"] = df.loc[:, "Regra"]*df.loc[:, "Alvo"]
 ## Calculando o resultado acumulado em juros simples
 df.loc[:, "Retorno_Trade_BB"] = df["Trade"].cumsum()
 
+#Exibe dataframe
+
+display(df)
+
 # Gráfico dos retornos
 df["Retorno_Trade_BB"].plot(figsize=(20, 15), linewidth = 3, fontsize = 15, color = "green")
 plt.xlabel("Data"
