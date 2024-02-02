@@ -18,12 +18,11 @@ st.set_page_config(
 )
 
 #Loading data
-filepath = "C:\\Users\\joaom\\OneDrive\\Trades e investimentos\\Swing trades\\REGISTROS.xlsx"
 pd.set_option('display.max_columns', None)
 #pd.set_option('display.max_rows', None)
-diarioccm = pd.read_excel(filepath, sheet_name='CCMFUT')
-diariobgi = pd.read_excel(filepath, sheet_name='BGIFUT')
-diarioacoes = pd.read_excel(filepath, sheet_name='ACOES')
+diarioccm = pd.read_excel('REGISTROS.xlsx', sheet_name='CCMFUT')
+diariobgi = pd.read_excel('REGISTROS.xlsx', sheet_name='BGIFUT')
+diarioacoes = pd.read_excel('REGISTROS.xlsx', sheet_name='ACOES')
 diariofull = pd.concat([diarioccm, diariobgi, diarioacoes]) #df = com as operações em aberto
 diariofull['POS E'] = diariofull['PREÇO ENTRADA'] * diariofull['QDE'].astype(float)
 diariofull.sort_values(by='SAÍDA', inplace=True)
