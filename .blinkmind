@@ -1,0 +1,462 @@
+{
+  "rootTopicKey": "86808b24-3d97-4c2d-856a-14278e8eec35",
+  "editorRootTopicKey": "86808b24-3d97-4c2d-856a-14278e8eec35",
+  "focusKey": "c328f656-2a3b-4d2b-9d9d-f69bbb9d33a0",
+  "extData": {
+    "TOPIC_REFERENCE": {
+      "reference": {}
+    }
+  },
+  "topics": [
+    {
+      "key": "0b7b69fb-c447-4e7b-904e-c1245c0fcfd1",
+      "parentKey": "3ff7d711-fcc1-4250-8a82-37fcfe23b5d6",
+      "subKeys": [
+        "2e49e04a-f4b9-44be-90d2-31bc039f7696"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Como determinar se uma regressão está adequada/(em explicar o fenômeno)"
+        }
+      ]
+    },
+    {
+      "key": "3264d608-e812-458d-af7f-ce92fa23298c",
+      "parentKey": "fe957c15-71cd-423d-980b-db64c88cdfab",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "P (A | B) = P (B|A) . P(A) / P(B)"
+        }
+      ]
+    },
+    {
+      "key": "104c87d4-b823-4805-9c31-1faea3addd4e",
+      "parentKey": "9e986886-9707-479b-929b-c2926b34415d",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "2. Ausência de correlação entre x"
+        }
+      ]
+    },
+    {
+      "key": "c328f656-2a3b-4d2b-9d9d-f69bbb9d33a0",
+      "parentKey": "9e986886-9707-479b-929b-c2926b34415d",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "5. Y e Erros devem ter uma distribuição normal"
+        }
+      ]
+    },
+    {
+      "key": "3ff7d711-fcc1-4250-8a82-37fcfe23b5d6",
+      "parentKey": "3b5d4eaa-9d4d-417e-b96d-a15aa37a813a",
+      "subKeys": [
+        "d9445421-b434-42c1-9ad4-24e9181c721a",
+        "de0e5003-6a22-4268-8f87-bec585f2384b",
+        "84c3482f-f84d-4faf-9b17-8f2d8d2f8a52",
+        "0b7b69fb-c447-4e7b-904e-c1245c0fcfd1",
+        "9e986886-9707-479b-929b-c2926b34415d"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Regressão Linear "
+        }
+      ]
+    },
+    {
+      "key": "0ac56b02-1ab4-4743-a495-48cc4653c8e2",
+      "parentKey": "9e986886-9707-479b-929b-c2926b34415d",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "1. Relação linear entre x e y"
+        }
+      ]
+    },
+    {
+      "key": "de66874b-09e1-47d1-a830-80ca8e106e79",
+      "parentKey": "86808b24-3d97-4c2d-856a-14278e8eec35",
+      "subKeys": [
+        "989d6153-5f92-42cf-87a8-696bcf988d4c",
+        "568831f6-c080-426c-a8f0-8d817ea10e58",
+        "fe957c15-71cd-423d-980b-db64c88cdfab",
+        "78f61eac-5853-4d11-8e54-1a1139bde5ad"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "13. Classificador Naive Bayes"
+        }
+      ]
+    },
+    {
+      "key": "7a4379e7-c080-4076-9b77-bf873b41c9fd",
+      "parentKey": "bb4f6f9f-1032-4765-821e-57b07c725103",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "ß e ß¹....ß², ßx = COEFICIENTES"
+        }
+      ]
+    },
+    {
+      "key": "de0e5003-6a22-4268-8f87-bec585f2384b",
+      "parentKey": "3ff7d711-fcc1-4250-8a82-37fcfe23b5d6",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Deve obedecer algumas premissas:"
+        }
+      ]
+    },
+    {
+      "key": "fe957c15-71cd-423d-980b-db64c88cdfab",
+      "parentKey": "de66874b-09e1-47d1-a830-80ca8e106e79",
+      "subKeys": [
+        "3264d608-e812-458d-af7f-ce92fa23298c",
+        "3cf22dd9-6055-4550-b360-1971ec8e581a"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Descreve a probabilidade \"A Priori\""
+        }
+      ]
+    },
+    {
+      "key": "86808b24-3d97-4c2d-856a-14278e8eec35",
+      "parentKey": null,
+      "subKeys": [
+        "de66874b-09e1-47d1-a830-80ca8e106e79",
+        "3b5d4eaa-9d4d-417e-b96d-a15aa37a813a"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Outspoken Mkt"
+        },
+        {
+          "type": "TOPOLOGY",
+          "data": {
+            "nodes": [],
+            "lines": [],
+            "lineName": "curve",
+            "fromArrowType": "",
+            "toArrowType": "triangleSolid",
+            "scale": 1,
+            "locked": 0
+          }
+        }
+      ]
+    },
+    {
+      "key": "d9445421-b434-42c1-9ad4-24e9181c721a",
+      "parentKey": "3ff7d711-fcc1-4250-8a82-37fcfe23b5d6",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Técnica Paramétrica : Predição de alvo contínuo (variável contínua)"
+        },
+        {
+          "type": "DESC",
+          "data": "Exemplos de variáveis contínuas:\n\nRenda\nIdade\nValores\nQuantidade \n\\(\\- infinito a \\+ infinito\\)\n\nVariáveis não contínuas:\nClasses\nNomes\nFaixas de valor\n"
+        }
+      ]
+    },
+    {
+      "key": "568831f6-c080-426c-a8f0-8d817ea10e58",
+      "parentKey": "de66874b-09e1-47d1-a830-80ca8e106e79",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "ex. de classificador baseado em notícias (x) com alvo (y)"
+        },
+        {
+          "type": "DESC",
+          "data": ""
+        }
+      ]
+    },
+    {
+      "key": "989d6153-5f92-42cf-87a8-696bcf988d4c",
+      "parentKey": "de66874b-09e1-47d1-a830-80ca8e106e79",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Visão geral"
+        },
+        {
+          "type": "DESC",
+          "data": "Em teoria das probabilidades e estatística, o teorema de Bayes \\(alternativamente, a lei de Bayes ou a regra de Bayes\\) descreve a probabilidade de um evento, baseado em um conhecimento a priori que pode estar relacionado ao evento. O teorema mostra como alterar as probabilidades a priori tendo em vista novas evidências para obter probabilidades a posteriori.\\[1\\] Por exemplo, o teorema de Bayes pode ser aplicado ao jogo das três portas \\(também conhecido como problema de Monty Hall\\). \\[2\\]\n\nUma das muitas aplicações do teorema de Bayes é a inferência bayesiana, uma abordagem particular da inferência estatística. Quando aplicado, as probabilidades envolvidas no teorema de Bayes podem ter diferentes interpretações de probabilidade. Com a interpretação bayesiana de probabilidade, o teorema expressa como a probabilidade de um evento \\(ou o grau de crença na ocorrência de um evento\\) deve ser alterada após considerar evidências sobre a ocorrência deste evento. A inferência bayesiana é fundamental para a estatística bayesiana.\\[3\\]\n\nO teorema de Bayes recebe este nome devido ao pastor e matemático inglês Thomas Bayes \\(1701 – 1761\\), que foi o primeiro a fornecer uma equação que permitiria que novas evidências atualizassem a probabilidade de um evento a partir do conhecimento a priori \\(ou a crença inicial na ocorrência de um evento\\). O teorema de Bayes foi mais tarde desenvolvido por Pierre\\-Simon Laplace, que foi o primeiro a publicar uma formulação moderna em 1812 em seu livro Teoria Analítica de Probabilidade, na tradução do francês. Harold Jeffreys colocou o algoritmo de Bayes e a formulação de Laplace em uma base axiomática. Jeffreys escreveu que \"o teorema de Bayes é para a teoria da probabilidade o que o teorema de Pitágoras é para a geometria\".\\[4\\]\n\n\nPlaca de neon, mostrando a expressão do teorema de Bayes.\nHistória\n\nVisualização do teorema de Bayes.\nO teorema de Bayes recebe este nome devido ao pastor e matemático inglês Thomas Bayes \\(1701 – 1761\\), que estudou como calcular a distribuição para o parâmetro de probabilidade de uma distribuição binomial \\(terminologia moderna\\). O manuscrito não publicado de Bayes foi editado significativamente por Richard Price antes de ser lido postumamente na Royal Society. Price editou o principal trabalho de Bayes An Essay towards Solving a Problem in the Doctrine of Chances \\(1763\\),\\[5\\] que aparece em Philosophical Transactions\\[6\\] e contém o teorema de Bayes. Price escreveu uma introdução para o artigo, que fornece algumas das bases filosóficas da estatística bayesiana. Em 1765, Price foi eleito membro da Royal Society em reconhecimento ao seu trabalho sobre o legado de Bayes.\\[7\\]\n\nO matemático francês Pierre\\-Simon Laplace reproduziu e estendeu os resultados de Bayes em 1774, aparentemente sem ter conhecimento do trabalho de Bayes.\\[8\\]\\[9\\]\\[10\\] A interpretação bayesiana da probabilidade foi desenvolvida principalmente por Laplace.\\[11\\] Stephen Stigler sugeriu em 1983 que o teorema de Bayes foi descoberto pelo matemático inglês cego Nicholas Saunderson pouco antes de Bayes.\\[12\\]\\[13\\] Entretanto, esta interpretação tem sido contestada.\\[14\\] Martyn Hooper\\[15\\] e Sharon McGrayne\\[16\\] argumentaram que a contribuição de Richard Price foi substancial: \n\n“    Por padrões modernos, devemos nos referir à regra Bayes–Price. Price descobriu o trabalho de Bayes, reconheceu sua importância, corrigiu–o, contribuiu para o artigo e encontrou um uso para ele. A convenção moderna de empregar apenas o nome de Bayes é injusta, mas tão arraigada que faz todo o resto não ter quase nenhum sentido.\\[16\\]"
+        }
+      ]
+    },
+    {
+      "key": "62999786-0c1e-4213-aef2-4aa96e2945a4",
+      "parentKey": "9e986886-9707-479b-929b-c2926b34415d",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "4. Erros não podem ser correlacionados"
+        }
+      ]
+    },
+    {
+      "key": "84c3482f-f84d-4faf-9b17-8f2d8d2f8a52",
+      "parentKey": "3ff7d711-fcc1-4250-8a82-37fcfe23b5d6",
+      "subKeys": [
+        "bb4f6f9f-1032-4765-821e-57b07c725103"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Y = ß + ß¹.X + C"
+        }
+      ]
+    },
+    {
+      "key": "9e986886-9707-479b-929b-c2926b34415d",
+      "parentKey": "3ff7d711-fcc1-4250-8a82-37fcfe23b5d6",
+      "subKeys": [
+        "0ac56b02-1ab4-4743-a495-48cc4653c8e2",
+        "104c87d4-b823-4805-9c31-1faea3addd4e",
+        "950565ee-7b5a-4146-a662-0575dc116473",
+        "62999786-0c1e-4213-aef2-4aa96e2945a4",
+        "c328f656-2a3b-4d2b-9d9d-f69bbb9d33a0"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "5 Premissas da Regressão Linear"
+        }
+      ]
+    },
+    {
+      "key": "c86848f9-0b8c-47ed-ba62-6c22689ba47f",
+      "parentKey": "2e49e04a-f4b9-44be-90d2-31bc039f7696",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "R² = 1 - (ESS / TSS) "
+        }
+      ]
+    },
+    {
+      "key": "950565ee-7b5a-4146-a662-0575dc116473",
+      "parentKey": "9e986886-9707-479b-929b-c2926b34415d",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "3. Erros devem ter a variância constante: \"Homocedasticidade\""
+        }
+      ]
+    },
+    {
+      "key": "2e49e04a-f4b9-44be-90d2-31bc039f7696",
+      "parentKey": "0b7b69fb-c447-4e7b-904e-c1245c0fcfd1",
+      "subKeys": [
+        "c86848f9-0b8c-47ed-ba62-6c22689ba47f"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Cálculo do R²"
+        }
+      ]
+    },
+    {
+      "key": "78f61eac-5853-4d11-8e54-1a1139bde5ad",
+      "parentKey": "de66874b-09e1-47d1-a830-80ca8e106e79",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Derivado do teorema de Bayes"
+        }
+      ]
+    },
+    {
+      "key": "3b5d4eaa-9d4d-417e-b96d-a15aa37a813a",
+      "parentKey": "86808b24-3d97-4c2d-856a-14278e8eec35",
+      "subKeys": [
+        "3ff7d711-fcc1-4250-8a82-37fcfe23b5d6"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "14. Modelos Lineares Generalizados"
+        }
+      ]
+    },
+    {
+      "key": "3cf22dd9-6055-4550-b360-1971ec8e581a",
+      "parentKey": "fe957c15-71cd-423d-980b-db64c88cdfab",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Obrigatório checar se a distribuição das varáveis é gaussiana(dist normal)"
+        }
+      ]
+    },
+    {
+      "key": "1c60ad22-837a-474e-84e1-603e43696690",
+      "parentKey": "bb4f6f9f-1032-4765-821e-57b07c725103",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "C (ERRO)\n\nRSS - Residual sum of squares\nESS - Explained sum of squares\nTSS - Total sum of squares\n"
+        }
+      ]
+    },
+    {
+      "key": "bb4f6f9f-1032-4765-821e-57b07c725103",
+      "parentKey": "84c3482f-f84d-4faf-9b17-8f2d8d2f8a52",
+      "subKeys": [
+        "7a4379e7-c080-4076-9b77-bf873b41c9fd",
+        "1c60ad22-837a-474e-84e1-603e43696690"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "ALVO = INTERCEPTO + INCLINAÇÃO . VARIÁVEL + ERRO"
+        }
+      ]
+    }
+  ],
+  "config": {
+    "readOnly": false,
+    "allowUndo": true,
+    "layoutDir": 0,
+    "theme": {
+      "name": "theme3",
+      "randomColor": false,
+      "background": "#A9DEF9",
+      "highlightColor": "#50C9CE",
+      "marginH": 50,
+      "marginV": 20,
+      "contentStyle": {
+        "lineHeight": "1.5"
+      },
+      "linkStyle": {
+        "lineRadius": 5
+      },
+      "rootTopic": {
+        "contentStyle": {
+          "background": "#FF99C8",
+          "color": "#fff",
+          "fontSize": "34px",
+          "borderRadius": "5px",
+          "padding": "16px 18px 16px 18px"
+        },
+        "subLinkStyle": {
+          "lineType": "curve",
+          "lineWidth": "2px",
+          "lineColor": "#43a9ff"
+        }
+      },
+      "primaryTopic": {
+        "contentStyle": {
+          "background": "#FCF6BD",
+          "borderWidth": "1px",
+          "borderStyle": "solid",
+          "borderColor": "#E4C1F9",
+          "borderRadius": "5px",
+          "color": "rgb(103,103,103)",
+          "fontSize": "14px",
+          "padding": "6px 10px 5px 10px"
+        },
+        "subLinkStyle": {
+          "lineType": "curve",
+          "lineWidth": "2px",
+          "lineColor": "#43a9ff"
+        }
+      },
+      "normalTopic": {
+        "contentStyle": {
+          "background": "#E4FDE1",
+          "borderRadius": "5px",
+          "color": "rgb(103,103,103)",
+          "fontSize": "13px",
+          "padding": "3px 9px 4px",
+          "boxShadow": "1px 1px 1px #ccc"
+        },
+        "subLinkStyle": {
+          "lineType": "round",
+          "lineRadius": 5,
+          "lineWidth": "1px",
+          "lineColor": "#43a9ff"
+        }
+      }
+    }
+  },
+  "formatVersion": null
+}

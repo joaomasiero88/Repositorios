@@ -41,11 +41,11 @@ df["Banda_Inf"] = df["MM"] - (df["desvio"]*desvios)
 df = df.dropna(axis = 0) #se a linha tiver um NA, corta a linha do dataframe
 
 ## Visualização dos dados no gráfico
-'''df[["Adj Close", "MM", "Banda_Sup", "Banda_Inf"]].plot(grid = True, figsize = (20, 15), linewidth = 1, fontsize = 15, color = ["darkblue", "red", "orange", "grey"])                                                            
+df[["Adj Close", "MM", "Banda_Sup", "Banda_Inf"]].plot(grid = True, figsize = (20, 15), linewidth = 1, fontsize = 15, color = ["darkblue", "red", "orange", "grey"])                                                            
 plt.xlabel("Data", fontsize = 15)           
 plt.ylabel("Pontos", fontsize = 15 )
 plt.title("Ticker:"+" {}".format(ticker), fontsize = 25)
-plt.legend()'''
+plt.legend()
 
 ## Construção dos Alvos
 periodos = 10 #tempo de duração da operação(dias)
