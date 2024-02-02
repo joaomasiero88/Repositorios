@@ -104,7 +104,7 @@ with col1:
 with col2:
    df1['Color'] = df1['NET P/L'].apply(lambda x: 'Positivos' if x >= 0 else 'Negativos')
    color_map = {'Positivos': 'blue', 'Negativos': 'red'}
-   fig = px.bar(df1, x=df1.index, y="NET P/L", title='Distribuição dos retornos por dia', color='Color', color_discrete_map=color_map)
+   fig = px.bar(df1, x=df1.index, y="NET P/L", title='Distribuição dos retornos', color='Color', color_discrete_map=color_map)
    st.plotly_chart(fig, use_container_width=True, sharing="streamlit", theme="streamlit")
 
 df1_filtered = df1.dropna(subset=['NET P/L'])
