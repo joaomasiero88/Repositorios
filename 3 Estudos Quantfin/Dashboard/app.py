@@ -91,8 +91,11 @@ df1['SAÍDA'] = pd.to_datetime(df1['SAÍDA'])
 #colunas_para_exibir = ['ENTRADA', 'SAÍDA', 'ATIVO', 'DIREÇÃO', 'SETUP', 'PREÇO ENTRADA', 'QDE', 'STOP', 'COSTS', 'PREÇO SAIDA', 'AJUSTES', 'VAR%', 'NET P/L', 'P/L ACUM']
 st.dataframe(df1)
 
+numero_registros = df1.shape[0]
+st.write(f"{numero_registros} Registros")
+
 # Gráficos
-st.header('Gráficos')
+st.header('Gráficos')x  
 
 # Layout de colunas 1
 col1, col2 = st.columns(2)
@@ -101,12 +104,23 @@ with col1:
    fig = px.line(df1, x="SAÍDA", y="P/L ACUM", title='P/L ACUM', color_discrete_sequence=['rgb(0,255,42)'])
    st.plotly_chart(fig, use_container_width=True, sharing="streamlit", theme="streamlit")
 with col2:
-   df1['Color'] = df1['NET P/L'].apply(lambda x: 'Positivos' if x >= 0 else 'Negativos')
-   color_map = {'Positivos': 'blue', 'Negativos': 'red'}
-   fig = px.bar(df1, x=df1.index, y="NET P/L", title='Distribuição dos retornos', color='Color', color_discrete_map=color_map)
-   st.plotly_chart(fig, use_container_width=True, sharing="streamlit", theme="streamlit")
-
-df1_filtered = df1.dropna(subset=['NET P/L'])
+    df1['Color'] = df1['NET P/L'].apply(lambda x: 'Positivos' if x >= 0 else 'Negativos')
+    color_map = {'Positivos': 'blue', 'Negativos': 'red'}
+    # Criar um DataFrame com todas as datas entre data_inicial e data_final
+    todas_datas = pd.date_range(start=data_inicial, end=data_final, freq='D')
+    df_todas_datas = pd.DataFrame({'SAÍDA': todas_datas})
+    # Mesclar com o DataFrame original para manter as linhas existentes
+    df1_merged = pd.merge(df_todas_datas, df1, on='SAÍDA', how='left')
+    # Remover linhas com valores nulos na coluna 'NET P/L'
+    df1_ret = df1_merged.dropna(subset=['NET P/L'])
+    # Mapear valores de texto para cores
+    df1_ret['Color'] = df1_ret['Color'].map(color_map)
+    # Criar gráfico de barras usando plotly.graph_objects
+    fig = go.Figure()
+    fig.add_trace(go.Bar(x=df1_ret['SAÍDA'], y=df1_ret['NET P/L'], marker_color=df1_ret['Color']))
+    # Configurar layout do gráfico
+    fig.update_layout(title='Distribuição dos retornos', xaxis=dict(type='category', tickmode='array', tickvals=[]))
+    st.plotly_chart(fig, use_container_width=True, sharing="streamlit", theme="streamlit")
 
 # Colunas 2
 col3, col4 = st.columns(2)
@@ -141,11 +155,7 @@ Results.loc[4, 'VALUES'] = disponivel_saque
 lucro_bruto = -retiradas + disponivel_saque
 Results.loc[5, 'Results'] = 'Lucro Bruto'
 Results.loc[5, 'VALUES'] = lucro_bruto
-lucro_liq = lucro_bruto * 0.85
-if lucro_bruto > 0:
-    lucro_liq = lucro_bruto * (1 - 0.15)  # 15% de desconto para lucros positivos
-else:
-    lucro_liq = lucro_bruto
+lucro_liq = lucro_bruto * (1 - 0.15) if lucro_bruto > 0 else lucro_bruto
 Results.loc[6, 'Results'] = 'Lucro Líquido (IR)'
 Results.loc[6, 'VALUES'] = lucro_liq
 capital_inicial = capital_alocado - lucro_liq
